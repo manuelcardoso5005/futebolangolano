@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="footer-area">
       <div className="footer-content">
         <div className="footer-section">
           <h3>About Us</h3>
@@ -11,6 +11,7 @@ const Footer = () => {
             We are a company dedicated to providing high-quality services and
             products.
           </p>
+          <p>© 2023 Your Company Name. All rights reserved.</p>
         </div>
         <div className="footer-section">
           <h3>Contact</h3>
@@ -33,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2023 Your Company Name. All rights reserved.</p>
+        <p>Desenvolvido por Manuel Cardoso</p>
       </div>
     </footer>
   );
